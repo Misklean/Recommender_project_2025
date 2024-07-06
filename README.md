@@ -38,7 +38,7 @@ The model uses the following seven columns to predict ratings for each movie for
 
 ### Model Choice
 - **RandomForest** was chosen for the prediction model. 
-- **Metrics**: *TODO: Specify the metrics used to evaluate the model performance*
+- **Metrics**: We use Mean Squared Error (MSE) to evaluate the model performance because it penalizes larger errors more heavily, providing a measure of the variance of prediction errors.
 
 ## 4. Recommendation Algorithm
 
